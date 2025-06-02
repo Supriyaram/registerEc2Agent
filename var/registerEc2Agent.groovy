@@ -1,7 +1,7 @@
-import hudson.slaves.DumbSlave
-import hudson.plugins.sshslaves.SSHLauncher
-import hudson.slaves.RetentionStrategy
-import hudson.model.Node
+import hudson.slaves.*
+import hudson.plugins.sshslaves.*
+import hudson.slaves.*
+import hudson.model.*
 import jenkins.model.Jenkins
 
 def call(String nodeName, String privateIP, String credentialsId) {
